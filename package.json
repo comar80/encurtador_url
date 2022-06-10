@@ -1,0 +1,32 @@
+{
+  "name": "encurtadorurl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:watch": "tsc -w",
+    "dev": "nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.9.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/typescript": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "cors": "^2.8.5",
+    "eslint": "^8.17.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/shortid": "^0.0.29"
+  }
+}
